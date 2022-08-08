@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 182, 182);
+    font-family: sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type:none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+  padding:30px 0 0 0 ;
+   font-size:2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* *********************NAVBARRE***********************/
+nav{
+    width: 100%;
+    background-color: rgb(203, 206, 209);
+    opacity: 0.9;
+    overflow: hidden;
+    position:fixed;
+
+}
+header li{
+ float: right;
+ font-size: 1.2em;
+}
+header li a{
+    text-decoration: none;
+    padding: 18px 16px;
+    display: block;
+    text-align: center;
+
+}
+#logo{
+    font-family: Dancing Script,cursive;
+    float: left;
+    font-weight: bold;
+ }
+
+/*********************IMAGE PRINCIPAL************** */
+#imagePrincipale{
+    padding-top: 70px;
+    background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    font-family: Dancing Script,cursive;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 110px;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    background-color:#FFFAE1;
+    margin: -3px auto;
+    box-shadow: 5px 4px 2px black;
+}
+h3{
+    text-align: center;
+    font-size: 3em;
+    color: antiquewhite;
+    text-shadow: 1px 2px 2px black;
+}
+
+/* *********PRESENTATION********** */
+#presentation{
+background-color: #FFFAE1;
+padding: 10px 0px 100px 0px;
+
+}
+#textIntro{
+    padding:0px 20%;
+}
+#prestations{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesPrestations{
+    font-family:cursive;
+    font: size 1.8em;
+    text-align: center;
+    margin-right: 15px;
+   
+}
+.imagesPrestations img{
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+.imagesPrestations img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+
+/* **********TOURISTE********** */
+
+#tourisme{
+height: 1400px;
+padding: 1px 2%;
+
+}
+#tourisme h2{
+    padding-top: 60px;
+}
+#ocean{
+    background: url(media/ocean.jpg);
+}
+#chateau{
+    background: url(media/chateau.JPG);
+}
+#phare{
+    background:url(media/phare.JPG);
+}
+#vignoble{
+    background: url(media/vignes.jpg);
+}
+#tourisme li{
+    margin:65px 100px 0 100px;
+    height: 226px;
+    width:55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+}
+#tourisme p{
+    height: 45px;
+    width: 235px;
+    background-color:#01DF74;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:15px ;
+    box-shadow: 4px 4px 0 1px rgb(87, 148, 95);
+   
+
+}
+#tourisme #chateau, #tourisme #vignoble{
+    float:right;
+}
+#chateau p , #vignoble p
+{
+    background-color: cyan;
+    float: left;
+    margin-left:-180px;
+    box-shadow: -4px 4px 0 1px rgba(15, 154,156, 1);
+
+}
+/* *******************FOOTER******************* */
+footer{
+    background-color:#524A3A ;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+margin: 0 auto;
+max-width: 900px;
+}
+button,input,textarea{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    color: #FFFAE1;
+    cursor: pointer;
+    background-color:#e55039 ;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+#deuxiemeTrait{
+    width: 55%;
+    height: 1px;
+    background-color: white;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #01DF74;
+}
+#icons a:hover{
+    opacity:0.5;
+    transform: scale(1.05);
+    transition: 0.1s;
+}
